@@ -7,7 +7,7 @@ body {
 header {
     background: white;
     box-shadow: 10px 10px 5px #aaaaaa;
-    
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,43 +33,20 @@ a {
 #title-header {
     margin: 0 .50rem;
 }
-.content-container {
-
-    margin-top: 7rem;
-
+.container {
+    
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
-.container-item {
-    height: 50%;
+.item {
+    text-align: center;
+    width: 45%;
 }
-#pic {
-    height: 50%;
+.item p {
+    font-size: 1.4em;
 }
-#name {
-    color: rgb(6, 27, 64);
-    font-weight: 800;
-    font-size: 3em;
-}
-span {
-    color: orange;
-}
-h3 {
-    color: rgb(115, 23, 29);
-}
-button {
-    font-weight: 700;
-    padding: .50em 1em;
-    border-radius: 20px;
-    background: blue;
-    color: white;
-    border: none;
-}
-.icon {
-    height: 30px;
-    margin-top: 1em;
+img {
+    margin-top: 2rem;
 }
 
 @media (max-width: 828px){
@@ -81,26 +58,16 @@ button {
     li {
         margin-top: .50rem;
     }
-    .content-container {
-        flex-direction: column;
-    }
 }
 @media (max-width: 548px) {
 
     header {
         flex-direction: column;
     }
-    .content-container {
-        text-align: center;
-    }
 }
 @media (max-width: 315px) {
 
     ul {
         flex-direction: column;
-    }
-
-    #pic {
-        height: 0%;
     }
 }
