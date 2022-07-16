@@ -7,7 +7,7 @@ body {
 header {
     background: white;
     box-shadow: 10px 10px 5px #aaaaaa;
-
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,21 +33,6 @@ a {
 #title-header {
     margin: 0 .50rem;
 }
-.container {
-    
-    display: flex;
-    justify-content: center;
-}
-.item {
-    text-align: center;
-    width: 45%;
-}
-.item p {
-    font-size: 1.4em;
-}
-img {
-    margin-top: 2rem;
-}
 
 @media (max-width: 828px){
 
@@ -57,14 +42,6 @@ img {
     }
     li {
         margin-top: .50rem;
-    }
-    .item{
-        border: 1px solid;
-        width: 80%;
-        text-align: center;
-    }
-    .container{
-        border: 1px solid;
     }
 }
 @media (max-width: 548px) {
@@ -78,4 +55,3 @@ img {
     ul {
         flex-direction: column;
     }
-}
