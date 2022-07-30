@@ -59,12 +59,8 @@ img {
         margin-top: .50rem;
     }
     .item{
-        border: 1px solid;
         width: 80%;
         text-align: center;
-    }
-    .container{
-        border: 1px solid;
     }
 }
 @media (max-width: 548px) {
